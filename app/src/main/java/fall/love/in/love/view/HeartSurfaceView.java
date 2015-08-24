@@ -270,8 +270,7 @@ public class HeartSurfaceView extends SurfaceView implements SurfaceHolder.Callb
         private void runHuaHeart() {
             // TODO 自动生成的方法存根
 //            int startx = sw / 2 - 16, starty = sh / 2 - 68;
-            int startx = sw - 416,
-                    starty = sh / 2 - 68;
+            int startx = sw - 416, starty = sh / 2 - 68;
             int maxh = 100;
             int y_dao = starty;
             double begin = 10; // 起始位置
@@ -309,10 +308,7 @@ public class HeartSurfaceView extends SurfaceView implements SurfaceHolder.Callb
                         p.setColor(Color.RED);
                         //画上一个，要不然会闪烁
                         if (old_num != -1) {
-                            Bitmap bb = bitmapcache.getBitmap(
-                                    AppContact.HEART_ALL[old_num], mContext);
-                            c.drawBitmap(bb, startx + old_xx, starty + old_yy,
-                                    p);
+                            Bitmap bb = bitmapcache.getBitmap(AppContact.HEART_ALL[old_num], mContext);c.drawBitmap(bb, startx + old_xx, starty + old_yy, p);
                         }
                         c.drawBitmap(bit, startx + xx, starty + yy, p);
                         old_num = hua_num;
