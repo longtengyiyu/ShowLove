@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Happy Birthday</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!--樰戈筱瞬-->
+    <string name="content">
+        /**This story since "蝶舞天涯" \n
+        " "*" "Everything has happened \n
+        " "*/ \n
+        Boy i = new Boy(I); \n
+        Girl u = new Girl(U); \n
+        //Time flies \n
+        i.love(u); \n
+        //UnLuckily you don\'t like me \n
+        i.waitFor(u); \n
+        //I miss you everyday\n
+        i.miss(u); \n
+        //And i want to take care of you \n
+        i.takeCareOf(u); \n
+        //Do you love me ? \n
+        u.doLove("龙腾异域"); \n
+        //Yes, i do,you said \n
+        u.accept(龙腾异域); \n
+        //we are happiness \n
+        i.liveHappinessWith(u); \n
+    </string>
+</resources>

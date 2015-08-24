@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:text="Can you be my girlfriend？"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|end" >
+
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="#000000"
+            android:text="no" />
+
+        <TextView
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="#3891ff"
+            android:text="Yes" />
+    </LinearLayout>
+</LinearLayout>
